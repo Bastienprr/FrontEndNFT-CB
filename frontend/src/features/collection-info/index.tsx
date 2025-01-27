@@ -39,13 +39,13 @@ const CollectionInfo: React.FC = () => {
             About the collection
           </p>
           <h1 className="text-center text-5xl sm:text-5xl lg:text-left lg:text-6xl xl:text-6xl">
-            Unique F1 Car Part NFTs
+            Unique Caroline Boule Boat Part NFTs
           </h1>
           <p className="text-center tracking-wide opacity-75 lg:text-justify">
             Have you heard of non-fungible tokens (NFTs) ? They&apos;re like digital certificates
             that certify something to be one-of-a-kind and not interchangeable. NFTs are stored on a
             digital ledger called a blockchain and can represent all kinds of exciting digital
-            assets—like our exclusive F1 car part collectibles. Best part? You can collect, sell,
+            assets—like our exclusive NFT colllection for the navigator Caroline Boule . Best part? You can collect, sell,
             and trade these NFTs just like physical racing memorabilia. Cool, huh?
           </p>
           <div className="flex justify-center lg:justify-start">
