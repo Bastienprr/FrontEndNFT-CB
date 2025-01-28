@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <p className="text-sm opacity-75">
             © {new Date().getFullYear()}{' '}
             <Link href="" target="_blank">
-              <span className="text-primary hover:underline">F1NFTs</span>
+              <span className="text-primary hover:underline">CAROLINEBOULENFTs</span>
             </Link>
             . All rights reserved.
           </p>

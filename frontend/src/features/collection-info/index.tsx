@@ -46,7 +46,7 @@ const CollectionInfo: React.FC = () => {
             that certify something to be one-of-a-kind and not interchangeable. NFTs are stored on a
             digital ledger called a blockchain and can represent all kinds of exciting digital
             assets—like our exclusive NFT colllection for the navigator Caroline Boule . Best part? You can collect, sell,
-            and trade these NFTs just like physical racing memorabilia. Cool, huh?
+            and trade these NFTs just like physical images. Cool, huh?
           </p>
           <div className="flex justify-center lg:justify-start">
             <Button>Learn more</Button>
