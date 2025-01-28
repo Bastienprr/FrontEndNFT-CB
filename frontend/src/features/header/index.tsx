@@ -35,10 +35,10 @@ const Header = () => {
             GET ON THE WHITELIST NOW
           </p>
           <h1 className="text-center text-5xl font-bold lg:text-left lg:text-7xl">
-            OWN AN <span className="text-primary">NFT PIECE</span> OF RACING HISTORY
+            OWN AN <span className="text-primary">NFT PIECE</span> OF CAROLINE BOULE HISTORY
           </h1>
           <p className="text-center font-light tracking-widest lg:text-left">
-            Unleash the thrill of Formula 1 with exclusive NFT cards featuring iconic F1 car parts.
+          Discover the thrill of sailing with exclusive NFT cards featuring iconic items from Caroline Boule's adventure.
           </p>
           <MintButton />
           <div className="mt-8 flex flex-col items-center gap-2 lg:mt-auto lg:flex-row">
