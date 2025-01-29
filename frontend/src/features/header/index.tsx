@@ -38,7 +38,7 @@ const Header = () => {
             OWN AN <span className="text-primary">NFT PIECE</span> OF CAROLINE BOULE HISTORY
           </h1>
           <p className="text-center font-light tracking-widest lg:text-left">
-          Discover the thrill of sailing with exclusive NFT cards featuring iconic items from Caroline Boule's adventure.
+          Discover the thrill of sailing with exclusive NFT cards featuring iconic items from Caroline Boule&apos;s adventure.
           </p>
           <MintButton />
           <div className="mt-8 flex flex-col items-center gap-2 lg:mt-auto lg:flex-row">
