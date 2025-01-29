@@ -30,7 +30,7 @@ const CollectionInfo: React.FC = () => {
               width={350}
               height={350}
             />
-            <h2 className="mt-4 text-center text-2xl font-extrabold">The Tires</h2>
+            <h2 className="mt-4 text-center text-2xl font-extrabold">La Proue</h2>
             <p className="mb-4 mt-2 text-center font-mono font-semibold opacity-75">#3</p>
           </div>
         </div>
