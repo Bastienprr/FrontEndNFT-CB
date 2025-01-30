@@ -22,7 +22,7 @@ const CollectionInfo: React.FC = () => {
       />
       <Wrapper className="z-20 flex flex-col gap-8 lg:flex-row">
         <div className="flex w-full flex-col items-center lg:w-1/2">
-          <div className="flex flex-col rounded-3xl bg-grey px-8 pt-8">
+          <div className="flex flex-col rounded-3xl bg-gray-100 px-8 pt-8 text-gray-900">
             <Image
               src="/nfts/3.svg"
               alt="NFT"
@@ -30,7 +30,7 @@ const CollectionInfo: React.FC = () => {
               width={350}
               height={350}
             />
-            <h2 className="mt-4 text-center text-2xl font-extrabold">La Proue</h2>
+            <h2 className="mt-4 text-center text-2xl font-extrabold">The Sharp Bow</h2>
             <p className="mb-4 mt-2 text-center font-mono font-semibold opacity-75">#3</p>
           </div>
         </div>
@@ -41,7 +41,7 @@ const CollectionInfo: React.FC = () => {
           <h1 className="text-center text-5xl sm:text-5xl lg:text-left lg:text-6xl xl:text-6xl">
             Unique Caroline Boule Boat Part NFTs
           </h1>
-          <p className="text-center tracking-wide opacity-75 lg:text-justify">
+          <p className="text-center tracking-wide opacity-90 lg:text-justify">
             Have you heard of non-fungible tokens (NFTs) ? They&apos;re like digital certificates
             that certify something to be one-of-a-kind and not interchangeable. NFTs are stored on a
             digital ledger called a blockchain and can represent all kinds of exciting digital
@@ -49,7 +49,9 @@ const CollectionInfo: React.FC = () => {
             and trade these NFTs just like physical images. Cool, huh?
           </p>
           <div className="flex justify-center lg:justify-start">
-            <Button>Learn more</Button>
+            <a href="#creator">
+              <Button>Learn more</Button>
+            </a>
           </div>
         </div>
       </Wrapper>

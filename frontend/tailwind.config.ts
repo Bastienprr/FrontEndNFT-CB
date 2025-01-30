@@ -10,17 +10,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#B2DFDB', // Bleu plus foncé pour un meilleur contraste
-        grey: '#78909C', // Gris plus marqué
-        primary: '#0288D1', // Bleu océan profond
-        secondary: '#81D4FA', // Bleu plus clair pour des éléments secondaires
-        accent: '#FFFFFF', // Blanc pour équilibrer avec le bleu
+        background: '#83ccc6',
+        primary: '#0288D1',
       },
       backgroundImage: {
-        'ocean-wave': `
-          radial-gradient(at 50% 20%, rgba(2, 136, 209, 0.4) 0px, transparent 50%),
-          radial-gradient(at 80% 70%, rgba(129, 212, 250, 0.4) 0px, transparent 50%),
-          radial-gradient(at 20% 80%, rgba(178, 223, 219, 0.4) 0px, transparent 50%)
+        'circle-glow': "url('/backgrounds/bg-circle.png')",
+        'blue-gradient': `
+          radial-gradient(at 99% 99%, hsla(204, 85%, 50%, 0.13) 0px, transparent 50%),
+          radial-gradient(at 4% 7%, hsla(204, 85%, 50%, 0.13) 0px, transparent 50%),
+          radial-gradient(at 4% 28%, hsla(204, 85%, 20%, 0.4) 0px, transparent 50%),
+          radial-gradient(at 4% 73%, hsla(204, 85%, 20%, 0.4) 0px, transparent 50%),
+          radial-gradient(at 4% 49%, hsla(204, 85%, 20%, 0.4) 0px, transparent 50%),
+          radial-gradient(at 4% 93%, hsla(204, 85%, 20%, 0.4) 0px, transparent 50%),
+          radial-gradient(at 94% 9%, hsla(204, 85%, 20%, 0.4) 0px, transparent 50%),
+          radial-gradient(at 4% 8%, hsla(204, 85%, 20%, 0.4) 0px, transparent 50%)
         `,
       },
     },

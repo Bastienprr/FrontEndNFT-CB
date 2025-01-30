@@ -10,10 +10,10 @@ const CTA: React.FC = () => {
       <Wrapper className="w-full gap-8">
         <div className="flex w-full flex-col gap-8 rounded-3xl bg-primary p-12 lg:flex-row">
           <div className="flex w-full flex-col gap-4 lg:w-3/5">
-            <h2 className="text-3xl font-bold text-black">
+            <h2 className="text-3xl font-bold text-white">
               Our collection is now available on multiple secondary marketplaces.
             </h2>
-            <h3 className="text-lg text-black">
+            <h3 className="text-lg text-white">
               Choose your preferred marketplace and start browsing our collection today!
             </h3>
           </div>
@@ -21,7 +21,7 @@ const CTA: React.FC = () => {
             {MARKETPLACES.map((marketplace) => (
               <Link href={marketplace.url} target="_blank" key={marketplace.name}>
                 <div
-                  className="h-12 w-12 overflow-hidden rounded-full grayscale transition-all hover:scale-110 hover:grayscale-0"
+                  className="h-12 w-12 overflow-hidden rounded-full transition-all hover:scale-110"
                   title={marketplace.name}
                 >
                   <Image

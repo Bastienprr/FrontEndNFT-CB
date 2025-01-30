@@ -22,7 +22,7 @@ const CreatorInfo: React.FC = () => {
           <h1 className="text-center text-5xl sm:text-5xl lg:text-left lg:text-6xl xl:text-6xl">
             Caroline Boule
           </h1>
-          <p className="text-center tracking-wide opacity-75 lg:text-justify">
+          <p className="text-center tracking-wide opacity-90 lg:text-justify">
           Caroline Boule is a Franco-Polish sailor and scientific researcher. Passionate about sailing since her childhood in Poland, she also excelled in studying materials science and nuclear engineering at Imperial College London. After graduating in 2020, she started a PhD at École Polytechnique while pursuing sailing projects.
           In 2023, Caroline made history by becoming the first woman to sail solo across the Atlantic on a foiling boat during the challenging Mini Transat race. She also set records, notably in the Mini 6.50 category.
           Alongside her maritime achievements, she continues her scientific research, combining her passions for science and sailing, while sharing her adventures on social media.

@@ -6,7 +6,7 @@ export const MARKETPLACES = [
   },
   {
     name: 'OpenSea',
-    url: 'https://testnets.opensea.io/fr/collection/f1-cards-nft-collection',
+    url: 'https://testnets.opensea.io/collection/sailing-boat-parts-collection',
     image: '/marketplaces/opensea.png',
   },
   {
