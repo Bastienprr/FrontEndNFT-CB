@@ -1,18 +1,18 @@
 export const SPONSORS = [
   {
-    img: '/brands/pinata-logo.svg',
-    href: 'https://pinata.cloud/',
+    img: '/brands/goiot.png',
+    href: 'https://www.goiot.fr/',
   },
   {
-    img: '/brands/ethereum-logo.svg',
-    href: 'https://ethereum.foundation/',
+    img: '/brands/nicomatic.png',
+    href: 'https://www.nicomatic.com/fr/',
   },
   {
-    img: '/brands/hardhat-logo.svg',
-    href: 'https://hardhat.org/',
+    img: '/brands/xelians.png',
+    href: 'https://www.xelians.fr/',
   },
   {
-    img: '/brands/opensea-logo.svg',
-    href: 'https://opensea.io/',
+    img: '/brands/incert.png',
+    href: 'https://www.incert.lu/',
   },
 ];
