@@ -18,7 +18,7 @@ export default Button;
 const CircleButton: React.FC<ButtonProps> = ({ children, className }) => {
   return (
     <button
-      className={'flex rounded-full bg-primary px-8 py-2 text-white hover:opacity-80 transition-opacity ' + className}
+      className={'flex rounded-full bg-primary px-4 py-1 sm:px-8 sm:py-2 text-white hover:opacity-80 transition-opacity ' + className}
     >
       {children}
     </button>
