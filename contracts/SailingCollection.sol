@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
-contract F1CardPacks is ERC1155, Ownable {
+contract SailingCollection is ERC1155, Ownable {
     uint256 public packPrice = 0.001 ether;
     uint256 public totalCards = 3; // Total unique cards
     uint256 public totalSupply;

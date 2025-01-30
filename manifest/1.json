@@ -1,19 +1,19 @@
 {
-  "name": "The Engine",
-  "description": "The engine is the powerhouse of any Formula 1 car, providing the raw speed and power needed to dominate the track. This card symbolizes energy, precision, and the relentless drive for victory.",
-  "image": "ipfs://bafybeiexkfjqxacwmlkvw3z2hdlweofutvgzjgmsn6txlecyh4xajmxiyq",
+  "name": "The Hull",
+  "description": "The backbone of every great vessel, the hull is meticulously designed for durability, buoyancy, and balance. It ensures the boat remains steady in turbulent waters while reducing drag for optimal performance.",
+  "image": "ipfs://bafybeidz6ncndq6kb3wsiwj7edb46jjz5pzlric5ouzxlq7tkjfiozg3v4",
   "attributes": [
     {
-      "trait_type": "Category",
-      "value": "F1 Car Component"
+      "trait_type": "Type",
+      "value": "Hull"
     },
     {
-      "trait_type": "Symbolism",
-      "value": "Energy"
+      "trait_type": "Material",
+      "value": "Reinforced Fiberglass"
     },
     {
-      "trait_type": "Main Element",
-      "value": "Engine"
+      "trait_type": "Functionality",
+      "value": "Stability & Hydrodynamics"
     }
   ]
 }

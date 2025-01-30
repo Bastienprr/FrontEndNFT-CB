@@ -3,7 +3,7 @@ require('dotenv').config();
 const { NFT_BASE_URL } = process.env;
 
 async function main() {
-  const factory = await ethers.getContractFactory("F1CardPacks");
+  const factory = await ethers.getContractFactory("SailingCollection");
   const contract = await factory.deploy(NFT_BASE_URL);
 
   await contract.deployed();

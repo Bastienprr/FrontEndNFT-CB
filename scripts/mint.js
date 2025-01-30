@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { ethers } = require("ethers");
-const contractJSON = require("../contracts/F1CardPacks.json");
+const contractJSON = require("../contracts/SailingCollection.json");
 
 const { PROVIDER_API_URL, PRIVATE_KEY, CONTRACT_ADDRESS } = process.env;
 
